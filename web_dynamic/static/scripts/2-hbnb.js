@@ -1,5 +1,5 @@
 /* script that checks if a checkbox is checked */
-$('document').ready(function () {
+$(document).ready(function () {
   const amenitiesId = {};
   $('INPUT[type="checkbox"]').click(function () {
     if ($(this).prop('checked')) {
